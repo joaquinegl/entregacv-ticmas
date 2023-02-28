@@ -1,0 +1,199 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: rgb(208, 208, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px grey;
+
+}
+
+.container .left_side {
+    position: relative;
+    background-color: rgb(112, 112, 112);
+    padding: 40px; 
+}
+
+.profilText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(234, 234, 234);
+
+}
+
+.profileText .imgBx {
+    margin: auto;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2 {
+    color: white;
+    font-size: 1.6em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 80;
+    line-height: 1.4em;
+}
+
+
+/* INFORMACION DE CONTACTO */
+.contactInfo {
+    padding-top: 30px;
+}
+
+.title {
+    color: rgb(233, 233, 233);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: lightblue;
+}
+
+.contactInfo ul li .icon {
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.textmail {
+    color: aliceblue;
+}
+
+.textphone{
+    color: aliceblue;
+}
+
+.textweb{
+    color: aliceblue;
+}
+
+
+
+
+
+
+/* EDUCACION */
+.contactInfo.education {
+    margin-bottom: 10px;
+}
+
+.contactInfo.education h5 {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.contactInfo.education h6 {
+    color: rgb(37, 36, 36);
+    font-weight: 500;
+}
+
+
+
+.contactInfo.language ul {
+    color: aliceblue;
+}
+
+
+
+
+
+/*LADO DERECHO*/
+.container .right_side {
+    position: relative;
+    background-color: lightblue;
+    padding: 40px; 
+}
+
+
+/*ACERCA DE*/
+.about {
+    margin-bottom: 50px;
+}
+
+.about.last-child {
+    margin-top: 0;
+}
+
+.title2 {
+    color: rgb(148, 148, 148);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.p {
+    color: rgb(38, 38, 38);
+}
+
+/*EXPERIENCIA*/
+.box {
+    margin-bottom: 20px;
+    color: rgb(54, 54, 54);
+}
+
+/*INTERESES*/
+.interests ul {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    margin-right: 10px;
+    list-style: none;
+}
+
