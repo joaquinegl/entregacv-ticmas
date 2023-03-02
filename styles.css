@@ -34,7 +34,7 @@ body
 .container .left_side {
     position: relative;
     background-color: rgb(112, 112, 112);
-    padding: 40px; 
+    padding: 30px; 
 }
 
 .profilText {
@@ -92,13 +92,16 @@ body
 
 .contactInfo ul {
     position: relative;
+    margin: 0px;
+    padding: 0px;
 }
 
 .contactInfo ul li {
     position: relative;
     list-style: none;
-    margin: 10px 0;
+    margin:     0px 0;
     cursor: pointer;
+    font-size: 0.8em;
 }
 
 .contactInfo ul li .icon {
@@ -136,12 +139,12 @@ body
 }
 
 .contactInfo.education h5 {
-    color: aliceblue;
+    color: rgb(199, 225, 248);
     font-weight: 500;
 }
 
 .contactInfo.education h6 {
-    color: rgb(37, 36, 36);
+    color: rgb(253, 241, 241);
     font-weight: 500;
 }
 
